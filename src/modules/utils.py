@@ -46,7 +46,7 @@ class Utilities:
             def show_csv_file(uploaded_file):
                 file_container = st.expander("Your CSV file :")
                 uploaded_file.seek(0)
-                shows = pd.read_csv(uploaded_file, encoding="utf8", errors='ignore')
+                shows = pd.read_csv(uploaded_file, encoding = "ISO-8859-1")
                 file_container.write(shows)
 
             def show_pdf_file(uploaded_file):
