@@ -11,7 +11,7 @@ class ChatHistory:
     def default_greeting(self):
         return "Hi 👋, I am Hexacare an AI based NLP bot that knows all about the company that exists to create smiles, How can I help you? "
 
-    #def default_prompt(self, topic):
+    def default_prompt(self, topic):
         #return f"Hello ! Ask me anything about Hexaware 🤗"
 
     def initialize_user_history(self):
